@@ -1,0 +1,12 @@
+.adm{background:var(--sky);min-height:100vh}.adm .top{background:var(--b);color:#fff;display:flex;align-items:center;gap:8px;padding:10px 16px;flex-wrap:wrap}
+.adm .top b{margin-right:12px}.adm .top button{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:700}
+.adm .top button.on{background:#fff;color:var(--b)}.adm .top .sp{flex:1}
+.adm main{max-width:1180px;margin:0 auto;padding:16px}.adm h1{font-size:22px;margin:0 0 12px}.adm .card{background:var(--card);border-radius:16px;padding:16px;box-shadow:var(--sh);margin-bottom:16px}
+.adm .tb{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center}.adm input,.adm select,.adm textarea{border:1px solid var(--line);border-radius:10px;padding:9px 10px;background:#fff;max-width:100%}
+.adm .tw{overflow-x:auto}.adm table{border-collapse:collapse;width:100%;font-size:14px}.adm th,.adm td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.adm .fg{display:grid;grid-template-columns:1fr 1fr;gap:12px}.adm .fg .w2{grid-column:1/-1}.adm label.l{display:block;font-size:13px;font-weight:700;margin-bottom:4px}.adm .fg input,.adm .fg select,.adm .fg textarea{width:100%}
+.adm .imgs{display:flex;gap:10px;flex-wrap:wrap}.adm .imgs div{border:1px solid var(--line);border-radius:10px;padding:6px;text-align:center;font-size:12px}.adm .imgs img{width:90px;height:90px;object-fit:contain;display:block}
+.adm .msg{padding:10px 14px;border-radius:10px;margin-bottom:12px;background:#e8f6ee;color:#155d33}.adm .msg.err{background:#fdecea;color:#8a1f17}
+.adm .login{max-width:360px;margin:12vh auto;padding:24px}.adm .login input{width:100%;margin-bottom:12px}.adm .pill{border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700;background:var(--line)}
+.adm .pill.published,.adm .pill.new,.adm .pill.completed{background:#dff3e7;color:#155d33}.adm .pill.hidden,.adm .pill.request,.adm .pill.processing{background:#fff1d6;color:#7a4a00}.adm .pill.archived,.adm .pill.cancelled{background:#eee;color:#555}
+@media(max-width:700px){.adm .fg{grid-template-columns:1fr}.adm main{padding:10px}}
